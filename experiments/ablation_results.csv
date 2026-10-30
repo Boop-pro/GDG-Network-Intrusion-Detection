@@ -1,0 +1,8 @@
+Configuration,Num_Features,Macro_F1,Availability_F1,Benign_F1,Reconnaissance_F1,Spoofing_F1
+1. Raw Baseline,81,0.99064,0.99996,0.98627,0.98528,0.99106
+2. + Port Categorization,93,0.99167,0.99994,0.98785,0.98639,0.9925
+3. + Flow Ratios,89,0.99303,0.99994,0.9884,0.99093,0.99284
+4. + TCP Flags Interaction,87,0.99066,0.99995,0.98788,0.98305,0.99177
+5. + Attack Signatures,84,0.99109,0.99996,0.98733,0.98528,0.99178
+6. + Log Rate Transforms,88,0.99093,0.99997,0.98629,0.98643,0.99105
+7. Full Engineered Set,117,0.99198,0.99994,0.98682,0.98866,0.99248

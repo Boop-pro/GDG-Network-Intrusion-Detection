@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Large competition datasets (follow competition rules - do not commit raw data)
+*.csv
+!data/README.md
+!submissions/README.md
+!experiments/*.csv
+
+# Model binaries and logs
+*.pkl
+*.joblib
+*.model
+*.cbm
+*.bin
+*.onnx
+catboost_info/
+
+# IDE files
+.vscode/
+.idea/
+
